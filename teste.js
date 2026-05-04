@@ -1,10 +1,10 @@
 const axios = require("axios");
 
-const TELEGRAM_TOKEN = process.env.8761179733:AAFd-9Z4g6zZ-aVkLCCrrPgK411-OFX8Do8;
-const CHAT_ID = process.env.8151926835;
+const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN;
+const CHAT_ID = process.env.CHAT_ID;
 
-const TWITCH_CLIENT_ID = process.env.vy99asz3p1bd5gsw83pm3au1dj0g7p;
-const TWITCH_TOKEN = process.env.bs3vy5iev9cu2kuej4i4i5vlweiw97;
+const TWITCH_CLIENT_ID = process.env.TWITCH_CLIENT_ID;
+const TWITCH_TOKEN = process.env.TWITCH_TOKEN;
 
 // 👇 canais que você quer monitorar
 const canais = ["fernandemiguels", "cellbit", "caionomichi", "7mz_lucasart", "batzera", "canalbyspeed"];
