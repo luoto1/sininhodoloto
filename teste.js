@@ -7,7 +7,7 @@ const TWITCH_CLIENT_ID = process.env.TWITCH_CLIENT_ID;
 const TWITCH_TOKEN = process.env.TWITCH_TOKEN;
 
 // 👇 canais que você quer monitorar
-const canais = ["fernandemiguels", "cellbit", "caionomichi", "7mz_lucasart", "batzera", "canalbyspeed"];
+const canais = ["fernandemiguels", "cellbit", "caionomichi", "7mz_lucasart", "batzera", "canalbyspeed", "ocarteirocosmico"];
 
 let avisados = new Set();
 
