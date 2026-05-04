@@ -1,19 +1,11 @@
 {
-  "dependencies": {
-    "axios": "^1.16.0"
-  },
-  "name": "bot-twitch",
+  "name": "bot-twitch-telegram",
   "version": "1.0.0",
-  "description": "",
   "main": "teste.js",
-  "devDependencies": {},
-  "scripts": {"scripts": {
-  "start": "node teste.js"
-}
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "scripts": {
+    "start": "node teste.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
 }
