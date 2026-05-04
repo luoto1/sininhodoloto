@@ -63,3 +63,10 @@ console.log("Bot rodando...");
 
 checarLives();
 setInterval(checarLives, 60000);
+
+console.log("Bot rodando...");
+
+enviarTelegram("TESTE 🔥 bot online no Railway");
+
+checarLives();
+setInterval(checarLives, 60000);
